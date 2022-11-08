@@ -1,0 +1,64 @@
+.product {
+  padding: 12px;
+  min-width: 192px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 10px 30px rgba(138, 149, 158, 0.1);
+  cursor: pointer;
+  text-decoration: none;
+}
+.product_image_box {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+  position: relative;
+  background: #f7f7f7;
+  border-radius: 6px;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  top: 12px;
+  left: 6px;
+  position: absolute;
+}
+.product_info {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.product_name {
+  font-size: 15px;
+  color: var(--black-color);
+  font-weight: 400;
+}
+.price {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: var(--black-color);
+}
+.pay_intallments {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.pay_installments_price {
+  padding: 2px 6px;
+  background: #ff647c;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #fff;
+}
+.pay_installments_month {
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.3px;
+  color: var(--gray-color);
+}

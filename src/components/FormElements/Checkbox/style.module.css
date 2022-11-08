@@ -1,0 +1,20 @@
+.input_container {
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  height: 24px;
+}
+.input {
+  position: absolute;
+  transform: scale(0);
+}
+.input:checked .active_checkbox {
+  display: block;
+}
+.in_active_checkbox {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--grey-color);
+  border-radius: 6px;
+}

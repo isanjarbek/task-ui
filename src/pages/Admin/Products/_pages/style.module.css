@@ -1,0 +1,162 @@
+.product_details {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+}
+.product_details_top {
+  display: flex;
+  gap: 20px;
+}
+.product_details_img {
+  max-width: 480px;
+  width: 100%;
+  background: #f3f5f8;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  position: relative;
+}
+.product_img {
+  width: 198px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  object-fit: contain;
+}
+.product_features {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: absolute;
+}
+
+.product_details_info_box {
+  border-bottom: 1px solid #f7f7f7;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.product_details_info_title {
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--gray-color);
+}
+.product_details_info_value {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: var(--black-color);
+  margin-top: 8px;
+}
+.pay_installments_box_month {
+  margin-top: 18px;
+  border-radius: 6px;
+}
+.pay_installments_month {
+  display: inline-flex;
+  padding: 12px 42px;
+  color: var(--grey-color);
+  border: 1px solid var(--grey-color);
+  border-width: 1px 0 1px 1px;
+  cursor: pointer;
+}
+.pay_installments_month:nth-child(1) {
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+}
+.pay_installments_month:nth-child(1) .pay_installments_month_active {
+  border-radius: 6px 0 0 6px;
+}
+.pay_installments_month:nth-last-child(1) {
+  border-radius: 0 6px 6px 0;
+  border-right: 1px solid var(--grey-color);
+}
+
+.pay_installments_month_active {
+  color: #ffffff;
+  background: var(--grey-color);
+  border-radius: none !important;
+}
+.pay_installments_month_price_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pay_installments_month_value {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.pay_installments_price {
+  padding: 2px 6px;
+  background: #ff647c;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #fff;
+}
+.pay_installments_price_month {
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.3px;
+  color: var(--gray-color);
+}
+
+.mark_up {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+.mark_up_value {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--black-color);
+}
+.characteristic_elements {
+  margin-top: 8px;
+}
+
+.show_all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.grey_title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: var(--grey-color);
+}
+
+.product_details_bottom {
+  margin: 30px 0;
+}
+.box_element_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e4e7ec;
+}
+.box_element_container:last-child {
+  border-bottom: none;
+}
+.product_details_bottom_box_element {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+.product_details_bottom_box_element span {
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--gray-color);
+  display: block;
+  margin-top: 10px;
+}

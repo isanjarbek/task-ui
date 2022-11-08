@@ -1,0 +1,16 @@
+.button {
+  border: none;
+  outline: none;
+  background: var(--grey-color);
+  border-radius: 26px;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.full_width {
+  width: 100%;
+}

@@ -1,0 +1,12 @@
+.layout {
+}
+.content {
+  display: flex;
+}
+main {
+  width: calc(100% - 269px);
+  background-color: #f3f5f8;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 20px 28px;
+}

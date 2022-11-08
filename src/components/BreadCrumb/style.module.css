@@ -1,0 +1,26 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.bread_item,
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.item a {
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--gray-color);
+  text-decoration: none;
+}
+.bread_crumb_seperator {
+  /* height: 12px;
+  margin-top: 5px; */
+}
+.current_item {
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--grey-color);
+}
